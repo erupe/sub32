@@ -9,6 +9,11 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 // Define config presets for easy maintenance
 const CONFIG_PRESETS = [
+    {
+    name: "自用",
+    url: "/config/ACL4SSR_Online_Full_AdblockPlus_personal.ini",
+    description: "personal"
+  },
   {
     name: "ACL4SSR",
     url: "/config/ACL4SSR.ini",
