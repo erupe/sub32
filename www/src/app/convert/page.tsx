@@ -323,6 +323,16 @@ export default function ConvertPage() {
                                     <button
                                         type="button"
                                         onClick={() => {
+                                            setFormData(prev => ({ ...prev, config: 'https://aka32.pages.dev/cl/ACL4SSR_Online_Full_AdblockPlus.ini' }));
+                                            setSetFields(prev => new Set([...prev, 'config']));
+                                        }}
+                                        className={`${smallButtonClass} bg-blue-100 hover:bg-blue-200 border-blue-300`}
+                                    >
+                                        {t('configPresetACL4SSROnlinepersonal')}
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => {
                                             setFormData(prev => ({ ...prev, config: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini' }));
                                             setSetFields(prev => new Set([...prev, 'config']));
                                         }}
