@@ -3,7 +3,7 @@ use std::sync::Arc;
 use actix_web::{test, web, App, HttpServer};
 use clap::Parser;
 use env_logger::Env;
-use log::{error, info};
+use log::{error, debug};
 use std::fs;
 
 use libsubconverter::settings::settings::settings_struct::init_settings;
