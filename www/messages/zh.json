@@ -268,6 +268,7 @@
         "configSectionTitle": "配置预设",
         "externalConfigLabel": "外部配置",
         "configPresetACL4SSROnline": "ACL4SSR Online",
+        "configPresetACL4SSROnlinepersonal": "ACL4SSR 自用",
         "configPresetACL4SSROnlineFull": "ACL4SSR Online Full",
         "configPresetACL4SSROnlineMini": "ACL4SSR Online Mini",
         "configPresetDivineEngine": "Divine Engine China",
